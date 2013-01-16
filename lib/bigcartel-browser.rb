@@ -1,7 +1,7 @@
 module BigCartel
   class Browser
     # Add Rails helper if ActionController::Base is available
-    require "browser/action_controller" if defined?(ActionController::Base)
+    require "bigcartel-browser/action_controller" if defined?(ActionController::Base)
 
     # Set browser's UA string.
     attr_accessor :user_agent

@@ -1,7 +1,7 @@
 require "bundler"
 Bundler::GemHelper.install_tasks
 
-require "./lib/browser/version"
+require "./lib/bigcartel-browser/version"
 
 require "rake/testtask"
 Rake::TestTask.new do |t|

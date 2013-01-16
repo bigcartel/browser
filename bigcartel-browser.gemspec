@@ -1,9 +1,9 @@
 # -*- encoding: utf-8 -*-
 $:.push File.expand_path("../lib", __FILE__)
-require "browser/version"
+require "bigcartel-browser/version"
 
 Gem::Specification.new do |s|
-  s.name        = "browser"
+  s.name        = "bigcartel-browser"
   s.version     = BigCartel::Browser::Version::STRING
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Nando Vieira"]
